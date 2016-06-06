@@ -235,7 +235,8 @@ apos.widgetPlayers.slideshow = function($el)
   var data = apos.getWidgetData($el);
   $el.projector({
     noHeight: data.noHeight,
-    delay: data.delay
+    delay: data.delay,
+    responsiveHeight:apos.projectorResponsiveHeight
   });
 };
 
@@ -245,7 +246,8 @@ apos.widgetPlayers.marquee = function($el)
   var data = apos.getWidgetData($el);
   $el.projector({
     noHeight: data.noHeight,
-    delay: data.delay
+    delay: data.delay,
+    responsiveHeight:apos.projectorResponsiveHeight
   });
 };
 
